@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>รายรับรายจ่าย สัมมนา 4 วิทยาเขต</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap');
+*{box-sizing:border-box}
+body{margin:0;font-family:'Sarabun',system-ui,sans-serif;background:#f4f6fb;color:#1f2937}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px 40px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;border-radius:18px;padding:22px 22px 18px}
+.hero h1{margin:0;font-size:22px}
+.hero .meta{opacity:.9;font-size:14px;margin-top:4px}
+.tag{display:inline-block;background:#fde68a;color:#78350f;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700;margin-bottom:8px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.kpi{background:rgba(255,255,255,.14);border-radius:12px;padding:10px 12px}
+.kpi .l{font-size:13px;opacity:.9} .kpi .v{font-size:20px;font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
+.card{background:#fff;border-radius:14px;padding:14px;border-top:5px solid var(--c);box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.ctitle{font-weight:700;color:var(--c)}
+.big{font-size:22px;font-weight:700;margin-top:4px}
+.sub{font-size:13px;color:#6b7280}
+.bar{height:8px;background:#e5e7eb;border-radius:99px;margin-top:10px;overflow:hidden}
+.bar span{display:block;height:100%;border-radius:99px}
+.bar .ok{background:#22c55e} .bar .over{background:#ef4444}
+.pct{font-size:12px;text-align:right;margin-top:2px} .pct.over{color:#dc2626}
+.left{font-weight:600;margin-top:4px} .neg{color:#dc2626}
+section{background:#fff;border-radius:14px;padding:14px 16px;margin-top:12px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+section h2{font-size:17px;margin:0 0 8px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:7px 6px;border-bottom:1px solid #eef0f4;text-align:right}
+th:first-child,td:first-child{text-align:left}
+th{color:#6b7280;font-weight:600}
+tr.tot td{font-weight:700;border-top:2px solid #d1d5db}
+.note{font-size:13px;color:#6b7280;margin-top:8px}
+.warn{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;border-radius:12px;padding:10px 12px;margin-top:12px;font-size:14px}
+footer{text-align:center;font-size:12px;color:#9ca3af;margin-top:18px}
+@media(max-width:640px){.cards,.kpis{grid-template-columns:1fr}}
+</style></head><body><div class="wrap">
+<div class="hero">
+  <span class="tag">ระหว่างดำเนินโครงการ</span>
+  <h1>รายรับรายจ่าย โครงการสัมมนาองค์การบริหาร 4 วิทยาเขต ครั้งที่ 22</h1>
+  <div class="meta">องค์การบริหาร องค์การนิสิต มก.ศรีราชา · รหัสโครงการ 369040010008 · 11–13 พ.ย. 2569</div>
+  <div class="kpis">
+    <div class="kpi"><div class="l">งบประมาณรวม</div><div class="v">341,588.00</div></div>
+    <div class="kpi"><div class="l">จ่ายแล้ว</div><div class="v">215,729.72</div></div>
+    <div class="kpi"><div class="l">คงเหลือ</div><div class="v">125,858.28</div></div>
+  </div>
+</div>
+<div class="cards">
+    <div class="card" style="--c:#2563eb">
+      <div class="ctitle">เงินบำรุง</div>
+      <div class="big">186,407.00</div>
+      <div class="sub">จ่ายแล้ว จากงบ 159,780.00</div>
+      <div class="bar"><span class="over" style="width:100.0%"></span></div><div class="pct over">117%</div>
+      <div class="left neg">เกินงบ 26,627.00</div>
+    </div>
+    <div class="card" style="--c:#16a34a">
+      <div class="ctitle">เงินสะสม</div>
+      <div class="big">29,322.72</div>
+      <div class="sub">จ่ายแล้ว จากงบ 101,808.00</div>
+      <div class="bar"><span class="ok" style="width:28.8%"></span></div><div class="pct ok">29%</div>
+      <div class="left ">คงเหลือ 72,485.28</div>
+    </div>
+    <div class="card" style="--c:#9333ea">
+      <div class="ctitle">เงินกองกลาง</div>
+      <div class="big">0.00</div>
+      <div class="sub">จ่ายแล้ว จากงบ 80,000.00</div>
+      <div class="bar"><span class="ok" style="width:0.0%"></span></div><div class="pct ok">0%</div>
+      <div class="left ">คงเหลือ 80,000.00</div>
+    </div></div>
+<div class="warn">เงินบำรุงจ่ายเกินงบ 26,627.00 บาท ส่วนใหญ่จากค่าที่พัก (เกินแผน 31,900) และค่าอาหาร (เกินแผน 6,450)</div>
+<section><h2>เงินบำรุงกิจกรรมนิสิต: เทียบแผนกับจ่ายจริง</h2>
+<table><tr><th>หมวด</th><th>ตามแผน</th><th>จ่ายจริง</th><th>คงเหลือ</th></tr><tr><td>ค่าที่พัก</td><td>107,200.00</td><td>139,100.00</td><td class="neg">(31,900.00)</td></tr><tr><td>ค่าอาหาร</td><td>32,830.00</td><td>39,280.00</td><td class="neg">(6,450.00)</td></tr><tr><td>ค่าอาหารว่าง</td><td>16,750.00</td><td>1,357.00</td><td class="">15,393.00</td></tr><tr><td>ค่าของที่ระลึก</td><td>3,000.00</td><td>6,661.00</td><td class="neg">(3,661.00)</td></tr><tr><td>ค่าธรรมเนียมธนาคาร</td><td>0.00</td><td>9.00</td><td class="neg">(9.00)</td></tr><tr class="tot"><td>รวมเงินบำรุง</td><td>159,780.00</td><td>186,407.00</td><td class="neg">(26,627.00)</td></tr></table>
+<div class="note">ค่าอาหารรวมมัดจำและยอดชำระส่วนที่เหลือแล้ว · ค่าของที่ระลึกหักเงินคืน 80 บาทแล้ว</div></section>
+<section><h2>เงินสะสมองค์กร: รายการที่ไม่มีในแผน</h2>
+<table><tr><th>รายการ</th><th>จ่ายจริง</th></tr><tr><td>เสื้อโครงการ</td><td>13,469.16</td></tr><tr><td>ค่าระบบแสงสีเสียง</td><td>9,000.00</td></tr><tr><td>ค่าตอบแทนผู้แสดง คัลเลอร์การ์ด (8 คน)</td><td>2,000.00</td></tr><tr><td>ป้ายโครงการ</td><td>1,850.00</td></tr><tr><td>ค่าพิธีกร (6 คน)</td><td>1,500.00</td></tr><tr><td>SD card</td><td>780.00</td></tr><tr><td>ป้ายชื่อ</td><td>543.56</td></tr><tr><td>ไฟแช็ก</td><td>140.00</td></tr><tr><td>น้ำดื่ม</td><td>40.00</td></tr><tr class="tot"><td>รวมเงินสะสม</td><td>29,322.72</td></tr></table></section>
+<section><h2>เงินกองกลาง (เงินรายได้อื่น ๆ)</h2>
+<table><tr><th>รายการ</th><th>ตามแผน</th><th>จ่ายจริง</th><th>คงเหลือ</th></tr><tr><td>ค่าห้องประชุม (40,000 × 2 วัน)</td><td>80,000.00</td><td>0.00</td><td>80,000.00</td></tr></table>
+<div class="note">ใช้ได้เฉพาะค่าห้องประชุมตามแผน ยังไม่ได้เบิกจ่าย</div></section>
+<footer>อัปเดตล่าสุด 11 พ.ย. 2569 19:15 น. · ข้อมูลระหว่างดำเนินโครงการ ยังไม่ใช่รายงานปิดโครงการ · ไม่แสดงชื่อผู้รับเงินที่เป็นบุคคล</footer>
+</div></body></html>
